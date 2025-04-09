@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: health-notion-webhook
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python health_notation_webhook.py"
